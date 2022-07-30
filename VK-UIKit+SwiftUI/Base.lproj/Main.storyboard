@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8ih-m9-sP2">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="u3N-LH-ovL">
+            <objects>
+                <viewController id="8ih-m9-sP2" customClass="ViewController" customModule="VK_UIKit_SwiftUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ibx-x6-oDf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tn-2w-8LN">
+                                <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EPe-RW-Fmp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8tn-2w-8LN" firstAttribute="trailing" secondItem="EPe-RW-Fmp" secondAttribute="trailing" id="8rK-6z-6I7"/>
+                            <constraint firstItem="8tn-2w-8LN" firstAttribute="top" secondItem="EPe-RW-Fmp" secondAttribute="top" id="T9Q-kU-sep"/>
+                            <constraint firstItem="8tn-2w-8LN" firstAttribute="leading" secondItem="EPe-RW-Fmp" secondAttribute="leading" id="dBL-4W-z62"/>
+                            <constraint firstItem="8tn-2w-8LN" firstAttribute="bottom" secondItem="EPe-RW-Fmp" secondAttribute="bottom" constant="-100" id="iwo-KJ-qkz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="theContainer" destination="8tn-2w-8LN" id="tSQ-1a-a2A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0Z-9d-wvT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-870" y="66"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
